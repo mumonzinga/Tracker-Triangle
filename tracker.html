@@ -41,10 +41,10 @@
 
         <div class="panel panel-default">
           <div class="panel-heading">
-            <button type="submit">Find Out what Triangle it is!</button>
+            <button type="submit" onclick="trianglemeasure()">Find Out what Triangle it is!</button>
           </div>
           <div class="panel-answer">
-
+            <p id="result"></p>
           </div>
 
           <div class="panel-footer">
@@ -52,5 +52,22 @@
           </div>
         </div>
       </form>
+
+      <div class="answer" id="equilateral">
+          <em>Your Triangle is EQUILATERAL!</em>
+          <img src="images/equilateral.jpeg">
+        </div>
+        <div class="answer" id="scalene">
+          <em>Your Triangle is SCALENE!</em>
+          <img src="images/scalene.jpeg">
+        </div>
+        <div class="answer" id="isosceles">
+          <em>Your Triangle is ISOSCELES!</em>
+          <img src="images/isosceles/png">
+        </div>
+        <div class="answer" id="not-triangle">
+          <em>This is NOT A TRIANGLE!</em>
+          <img src="images/not-triangle.jpeg">
+        </div>
     </div>
 </html>
