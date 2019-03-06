@@ -21,14 +21,13 @@ https://github.com/mumonzinga/tracker-triangle.git'
 -'cd tracker-triangle'
 -'atom .'
 -'code .' [//]:#(this is if Visual Studio Code is your preferred text editor)
-## BDD
-|Behaviour                        |           Input          | output          |                 
-|Our program should handle        |   When it receives :     |It should return:|
-|       :----                     |           :----          |     :----       |
-|a figure that is not atriangle   |           3,4,1          | NOT A TRIANGLE  |
-|an equilateral triangle          |           5,5,5          |  EQUILATERAL    |
-|a scalene triangle               |           3,5,10         | SCALENE         |
-|an isosceles triangle            |           4,7,7          | ISOSCELES       |
+#BDD
+| Behaviour Our program should handle: | Input When it receives: | Output It should return: |
+|--------------------------------------|-------------------------|--------------------------|
+| a figure that is not a triangle      | 3,4,1                   | NOT A TRIANGLE           |
+| an equilateral triangle              | 5,5,5                   | EQUILATERAL              |
+| a scalene triangle                   | 3,5,10                  | SCALENE                  |
+| an isosceles triangle                | 2,7,7                   | ISOSCELES                |
 ## Known Bugs
 The button is not printing the output.
 ## Technologies Used
