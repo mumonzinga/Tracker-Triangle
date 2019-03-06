@@ -1,4 +1,4 @@
-# Mumo-Portfolio
+# Triangle-Tracker
 
 ![Github Stars](https://github.com/mumonzinga/mumo-portfolio/stargazers)
 ![Github Issues](https://github.com/mumonzinga/mumo-portfolio/issues)
