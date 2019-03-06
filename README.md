@@ -11,6 +11,9 @@ This is an application that tells you what type of triangle when you key in the 
 ---
 ## Features
 -None
+
+
+
 ## Setup/Installation Requirements
 * a text-editor e.g. code, atom
 * internet to access my github repository.
@@ -21,7 +24,9 @@ https://github.com/mumonzinga/tracker-triangle.git'
 -'cd tracker-triangle'
 -'atom .'
 -'code .' [//]:#(this is if Visual Studio Code is your preferred text editor)
-##BDD
+## BDD
+
+
 | Behaviour Our program should handle: | Input When it receives: | Output It should return: |
 |--------------------------------------|-------------------------|--------------------------|
 | a figure that is not a triangle      | 3,4,1                   | NOT A TRIANGLE           |
